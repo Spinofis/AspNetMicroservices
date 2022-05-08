@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Nauka\\AspNetMicroservices\\aps-net-microservices\\aps-net-microservices\\aps-net-microservices.csproj",
+      "projectUniqueName": "C:\\Nauka\\MICROSERVICES\\AspNetMicroservices\\aps-net-microservices\\aps-net-microservices\\aps-net-microservices.csproj",
       "projectName": "aps-net-microservices",
-      "projectPath": "C:\\Nauka\\AspNetMicroservices\\aps-net-microservices\\aps-net-microservices\\aps-net-microservices.csproj",
+      "projectPath": "C:\\Nauka\\MICROSERVICES\\AspNetMicroservices\\aps-net-microservices\\aps-net-microservices\\aps-net-microservices.csproj",
       "packagesPath": "C:\\Users\\Bartek\\.nuget\\packages\\",
-      "outputPath": "C:\\Nauka\\AspNetMicroservices\\aps-net-microservices\\aps-net-microservices\\obj\\",
+      "outputPath": "C:\\Nauka\\MICROSERVICES\\AspNetMicroservices\\aps-net-microservices\\aps-net-microservices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -38,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -49,6 +50,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -67,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

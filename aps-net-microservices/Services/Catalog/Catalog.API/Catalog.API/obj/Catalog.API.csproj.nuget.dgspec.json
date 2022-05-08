@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Nauka\\MICROSERVICES\\AspNetMicroservices\\aps-net-microservices\\aps-net-microservices\\aps-net-microservices.csproj": {}
+    "C:\\Nauka\\MICROSERVICES\\AspNetMicroservices\\aps-net-microservices\\Services\\Catalog\\Catalog.API\\Catalog.API\\Catalog.API.csproj": {}
   },
   "projects": {
-    "C:\\Nauka\\MICROSERVICES\\AspNetMicroservices\\aps-net-microservices\\aps-net-microservices\\aps-net-microservices.csproj": {
+    "C:\\Nauka\\MICROSERVICES\\AspNetMicroservices\\aps-net-microservices\\Services\\Catalog\\Catalog.API\\Catalog.API\\Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Nauka\\MICROSERVICES\\AspNetMicroservices\\aps-net-microservices\\aps-net-microservices\\aps-net-microservices.csproj",
-        "projectName": "aps-net-microservices",
-        "projectPath": "C:\\Nauka\\MICROSERVICES\\AspNetMicroservices\\aps-net-microservices\\aps-net-microservices\\aps-net-microservices.csproj",
+        "projectUniqueName": "C:\\Nauka\\MICROSERVICES\\AspNetMicroservices\\aps-net-microservices\\Services\\Catalog\\Catalog.API\\Catalog.API\\Catalog.API.csproj",
+        "projectName": "Catalog.API",
+        "projectPath": "C:\\Nauka\\MICROSERVICES\\AspNetMicroservices\\aps-net-microservices\\Services\\Catalog\\Catalog.API\\Catalog.API\\Catalog.API.csproj",
         "packagesPath": "C:\\Users\\Bartek\\.nuget\\packages\\",
-        "outputPath": "C:\\Nauka\\MICROSERVICES\\AspNetMicroservices\\aps-net-microservices\\aps-net-microservices\\obj\\",
+        "outputPath": "C:\\Nauka\\MICROSERVICES\\AspNetMicroservices\\aps-net-microservices\\Services\\Catalog\\Catalog.API\\Catalog.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,18 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

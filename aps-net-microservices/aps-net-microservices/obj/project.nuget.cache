@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y/1SyTh6X5z/6I7QjFeU3xmInCQfzK517Cv39KlcoIaxuCZjzpO3ZE+rCTuRRoKx3Gzs9Oki/hEfxmp7LjIXdA==",
+  "dgSpecHash": "VQ0PlIKZ14kZFO9ySCSA4wcOldwUWqKdKwF8T/I6u7TvuxJ1smn2QWbL//rVOoSDAh3Lj6Rw95vwYm5CK0szlg==",
   "success": true,
-  "projectFilePath": "C:\\Nauka\\AspNetMicroservices\\aps-net-microservices\\aps-net-microservices\\aps-net-microservices.csproj",
+  "projectFilePath": "C:\\Nauka\\MICROSERVICES\\AspNetMicroservices\\aps-net-microservices\\aps-net-microservices\\aps-net-microservices.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
